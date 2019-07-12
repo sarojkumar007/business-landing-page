@@ -1,0 +1,19 @@
+{
+  "name": "mytradingtax",
+  "version": "1.0.1",
+  "description": "My trading tax",
+  "main": "main.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style_v1.css -w"
+  },
+  "keywords": [
+    "mytradingtax",
+    "my trading tax",
+    "trading tax"
+  ],
+  "author": "Saroj Kumar Sahoo (Student GCEK)",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
