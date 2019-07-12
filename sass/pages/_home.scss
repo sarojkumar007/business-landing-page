@@ -1,0 +1,89 @@
+// Sections Code here
+// and page specific code here
+
+.section {
+    width: 100%;
+    background: $color-grey-2;
+
+    @include respond(tab-port) {
+        width: 100%;
+    }
+
+    &_jumbotron {
+        position: relative;
+    }
+}
+.section-alt {
+    // background-color: $color-white;
+    background-image: $color-gradient;
+}
+.section-alt-2 {
+    background-image: $color-gradient-2;
+}
+.jumbotron_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &--card {
+        overflow: hidden;
+        width: 30rem;
+        margin: 8rem 1.8rem;
+        padding: 3rem;
+        background-color: $color-grey-1;
+        border: 1px solid $color-dark-grey-2;
+        border-radius: 1rem;
+
+        @include respond(tab-port) {
+            margin: 2rem 1.8rem;
+            width: 70%;
+        }
+    }
+}
+.card_image {
+    position: relative;
+    width: 100%;
+    height: 15rem;
+
+    // @include respond(tab-port) {
+    //     height: 8rem;
+    // }
+
+    &--icon {
+        font-size: 10rem;
+
+        // @include respond(tab-port) {
+        //     font-size: 8rem;
+        // }
+    }
+}
+.section_covers {
+    position: relative;
+
+    &--container {
+        margin: 3rem;
+        background-color: $color-white;
+        border-radius: 50px;
+    }
+}
+.section_facility {
+    display: flex;
+    flex-wrap: wrap;
+
+    &--div {
+        width: 42%;
+        flex-grow: 1;
+        margin: 4rem;
+
+        @include respond(tab-port) {
+            width: 70%;
+        }
+    }
+}
+.points_ul {
+    list-style-type: none;
+}
+.points_li {
+    font-size: 1.5rem;
+    padding: 1rem;
+}

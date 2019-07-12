@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    color:#555;
+}
+.heading2 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    background-image: $color-gradient;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 3.3rem;
+    font-weight: bolder;
+    text-align: center;
+    transition: all .3s;
+}
+.heading2:hover {
+    transform: scale(1.1) skew(-10deg);
+    text-shadow:0.5rem 1rem 2rem rgba(0,0,0,0.2);
+}
+.heading3 {
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    text-align: center;
+    background-image: $color-gradient;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.heading4 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: $color-black;
+    padding: 1.5rem;
+}
+.lead {
+    padding: .5rem;
+    font-size: 1.7rem;
+}
+.lead-sm {
+    padding: .4rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.heading5 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    background-image: $color-gradient;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 3.3rem;
+    font-weight: bolder;
+    text-align: center;
+    transition: all .3s;
+}
+.heading5:hover {
+    transform: scale(1.1) skew(-10deg);
+    text-shadow:0.5rem 1rem 2rem rgba($color-white,0.2);
+}

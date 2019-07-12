@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+    //defines 1rem
+    font-size: 62.5%;
+
+    @include respond(tab-land) {
+        font-size: 56.25%; // 9px
+    }
+    @include respond(tab-port) {
+        font-size: 50%; // 8px
+    }
+    @include respond(phone) {
+        font-size: 30%; // 4.8px
+    }
+
+    @include respond(big-desktop) {
+        font-size: 75%; // 12px
+    }
+}
+
+body {
+    box-sizing: border-box;
+}
+hr {
+    background-color: $color-dark-grey-2;
+}
+
+::selection {
+    background-color: $color-primary-dark;
+    color: $color;
+}
+.fas {
+    background-image: $color-gradient-2;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+h1, h2 {
+    display: inline-block;
+}

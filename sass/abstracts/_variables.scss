@@ -1,0 +1,31 @@
+//COLORS
+$color-primary: #F7A41A;
+$color-primary-light: #27567A; //#192BFF;
+$color-primary-dark: #001446; //#000DB2; // yellow
+$color: #FFEF38; //#FFC900; //dark violet
+
+$color-dark-grey:#777;
+$color-dark-grey-2: #999;
+$color-dark-grey-3: #333;
+$color-grey-1:#f7f7f7;
+$color-grey-2: #ddd;
+$color-white:#fff;
+$color-black: #000;
+
+$color-facebook: #554FAB;
+$color-googleplus: #E0392E;
+$color-twitter: #4287F6;
+
+//FONTS
+$default-font-size:1.6rem;
+
+//GRID
+
+$grid-width:110rem;
+$gutter-vertical:6rem;
+$gutter-horizontal:4rem;
+
+// Gradients
+
+$color-gradient: linear-gradient(to top, rgba($color-primary, .9), rgba($color, .9));
+$color-gradient-2: linear-gradient(to bottom right, rgba($color-primary-light, .9), rgba($color-primary-dark, .9));

@@ -1,0 +1,51 @@
+.btn, .btn:link, .btn:visited {
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    background-image: $color-gradient;
+    outline: none;
+    border-radius: 5px;
+    color: $color-dark-grey-3;
+    border: none;
+    transition: all .3s;
+    padding: .8rem 1rem;
+    font-family: "Karla", cursive;
+}
+.btn:hover,
+.btn:focus {
+    box-shadow: 0px 4px 8px rgba($color-black, 0.4);
+    color: $color-dark-grey-3;
+    transform: translateY(-3px);
+}
+.btn:active {
+    box-shadow: 0px 3px 6px rgba($color-black, 0.4);
+    transform: translateY(0px);
+    color: $color-dark-grey-3;
+}
+
+.btn-2, .btn-2:link, .btn-2:visited {
+    display: block;
+    text-align: center;
+    text-decoration: none !important;
+    font-size: 2rem;
+    background-image: $color-gradient-2;
+    outline: none;
+    border-radius: 5px;
+    color: $color-white;
+    border: none;
+    transition: all .3s;
+    padding: .8rem 1rem;
+    font-family: "Karla", cursive;
+}
+.btn-2:hover,
+.btn-2:focus {
+    box-shadow: 0px 4px 8px rgba($color-black, 0.5);
+    color: $color-white;
+    transform: translateY(-3px);
+}
+.btn-2:active {
+    box-shadow: 0px 3px 6px rgba($color-black, 0.5);
+    transform: translateY(0px);
+    color: $color-white;
+}
+
